@@ -9,6 +9,9 @@ readme = "README.md"
 python = "^3.10"
 flask = "^3.0.3"
 flask-socketio = "^5.3.6"
+numpy = "^1.26.4"
+serial = "^0.0.97"
+pyserial = "^3.5"
 
 
 [build-system]
