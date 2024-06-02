@@ -13,7 +13,7 @@ app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins="*")
 
 # Initialize serial communication
-ser = serial.Serial('/dev/tty.usbmodem1401', 2000000)  # Change '/dev/cu.usbmodem1401' to the appropriate port on your system
+ser = serial.Serial('/dev/tty.usbmodem21301', 2000000)  # Change '/dev/cu.usbmodem1401' to the appropriate port on your system
 
 def setup():
     print("Setup completed.")
